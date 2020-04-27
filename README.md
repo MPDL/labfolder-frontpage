@@ -128,5 +128,3 @@ Javascript Files:
 
 
 Thanks for downloading from Styleshout :)
-
-
