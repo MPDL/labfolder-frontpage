@@ -52,8 +52,14 @@
 </script>
 <!-- End Matomo Code -->
 
-
-
+<!-- Consent Banner -->
+<script defer src="https://assets.mpdl.mpg.de/static/mpdl-consent/consent-config-matomo.js"></script>
+<script defer>
+        window.addEventListener('load', ()=> {
+        runConsentBanner({'privacyPolicyUrl' : 'url-to-privacy-policy'});
+});
+</script>
+<!-- End Consent Banner -->
 
 
 </head>
